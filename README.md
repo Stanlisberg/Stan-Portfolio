@@ -1,3 +1,3 @@
-# My portfolio website
+# Stanlisberg Portfolio
 
 Built with HTML, CSS & JavaScript
