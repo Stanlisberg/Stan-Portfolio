@@ -425,7 +425,7 @@ button:hover {
   width: 1px;
   height: 300px;
   margin: auto;
-  background-color:#e83e8c;
+  background-color: #e83e8c;
   animation: moving 4s ease-in-out infinite;
 }
 @keyframes moving {
@@ -479,7 +479,7 @@ h1 {
 .horizon-line {
   width: 60%;
   height: 1px;
-  background-color:#e83e8c;
+  background-color: #e83e8c;
 }
 .half1 {
   width: 65%;
@@ -543,7 +543,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid  #e83e8c;
+  border: 1px solid #e83e8c;
   border-radius: 10px;
   padding: 10px 10px;
   font-size: 16px;
@@ -597,7 +597,7 @@ h1 {
 .horizon-line2 {
   width: 40%;
   height: 1px;
-  background-color:#e83e8c;
+  background-color: #e83e8c;
 }
 .heading3-mob {
   width: 100%;
@@ -606,11 +606,11 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.cont {
+.wrap {
   width: 100%;
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(3, 0.34fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .cont-mobile {
   width: 100%;
@@ -744,112 +744,56 @@ h2 {
 }
 .box1 {
   width: 100%;
-  height: 65%;
+  height: 45%;
   background-color: #e83e8c;
-  background: url("./images/todo.jpg");
-  background-size: cover;
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736163337/arojo_qrtuz2.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: initial;
+  object-fit: contain;
 }
 .box2 {
   width: 100%;
-  height: 65%;
+  height: 45%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/irokoevents.png");
-  background-size: cover;
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736162350/krypto_wgi8yj.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: initial;
+  object-fit: contain;
 }
 .box3 {
   width: 100%;
-  height: 65%;
+  height: 45%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/kryptofolio.png");
-  background-size: cover;
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736159850/cinemax_synj3h.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: initial;
+  object-fit: contain;
 }
 .box4 {
   width: 100%;
-  height: 65%;
+  height: 45%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/lorenzofigma.png");
-  background-size: cover;
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736168547/alabaS_kvi1to.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: initial;
+  object-fit: contain;
 }
+
 .box5 {
   width: 100%;
-  height: 65%;
-  background-color: #e83e8c;
-  background: url("./images/loopstudios.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box6 {
-  width: 100%;
-  height: 65%;
+  height: 45%;
   background-color: rgba(251, 146, 60, 1);
-  background: url("./images/crowdfund.jpg");
-  background-size: cover;
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736169555/beachf_rbyg3p.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: initial;
+  object-fit: contain;
 }
-.box7 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/travas.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box8 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/tenzies.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box9 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/ecommerce.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box10 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/Beach.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box11 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/easybank.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-.box12 {
-  width: 100%;
-  height: 65%;
-  background-color: rgba(251, 146, 60, 1);
-  background: url("./images/meme-gen.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
+
 .hold {
   width: 40%;
   height: fit-content;
@@ -1025,7 +969,27 @@ footer {
 /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/
 /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*mobile site starts!!!!!!!!!!!!!!!!!!!!!!*/
 
+@media (max-width: 450px) {
+  .wrap {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+}
 @media (max-width: 650px) {
+  .wrap {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stack-info-hold {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -1270,7 +1234,6 @@ footer {
     transition: all 0.3s ease-out;
   }
 
-
   button:hover {
     background-color: #e84f9741;
   }
@@ -1290,7 +1253,7 @@ footer {
     transition: all 0.3s ease-out;
   }
   .button:hover {
-    background-color:rgba(50, 47, 47, 0.155);
+    background-color: rgba(50, 47, 47, 0.155);
     color: white;
   }
   .mob-resume {
@@ -1308,7 +1271,6 @@ footer {
     position: absolute;
     left: -35px;
     bottom: 20px;
-    
   }
   .scroll {
     animation: scrolling 1.2s ease-in-out infinite;
@@ -1688,11 +1650,11 @@ footer {
     align-items: center;
     justify-content: space-between;
   }
-  .cont {
+  /* .wrap {
     width: 100%;
     display: none;
     margin-top: -50px;
-  }
+  } */
   .cont-mobile {
     width: 100%;
     display: block;
@@ -1731,7 +1693,7 @@ footer {
     border-radius: 9px 9px 0 0;
     text-align: center;
     font-size: 14px;
-    background-color:#ef78af7b;
+    background-color: #ef78af7b;
     color: #1c1e22;
     font-weight: 700;
     position: absolute;
@@ -1763,40 +1725,47 @@ footer {
     height: 20px;
     margin: 0 5px;
   }
+
   .box1 {
     background-color: #e83e8c;
-    background: url("./images/todo.jpg");
-    background-size: cover;
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736163337/arojo_qrtuz2.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: initial;
+    object-fit: contain;
   }
   .box2 {
-    background-color: #e83e8c;
-    background: url("./images/irokoevents.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736162350/krypto_wgi8yj.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: initial;
+    object-fit: contain;
   }
   .box3 {
-    background-color: #e83e8c;
-    background: url("./images/Kryptofolio.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736159850/cinemax_synj3h.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
   .box4 {
-    background-color: #e83e8c;
-    background: url("./images/lorenzofigma.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736168547/alabaS_kvi1to.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
+
   .box5 {
-    background-color: #e83e8c;
-    background: url("./images/loopstudios.jpg");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736169555/beachf_rbyg3p.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
   .box6 {
     background-color: #e83e8c;
@@ -1853,7 +1822,7 @@ footer {
     border: 3px solid #e83e8c;
     padding: 15px;
     border-radius: 9px;
-    background-color: #e8207d66
+    background-color: #e8207d66;
   }
   .view {
     width: 100%;
@@ -1952,9 +1921,9 @@ footer {
     z-index: 1;
     text-align: center;
     margin-bottom: 30px;
-  } 
+  }
   .foot-talk {
-     width: 90%;
+    width: 90%;
     font-size: 20px;
     line-height: 25px;
     height: fit-content;
@@ -2015,6 +1984,25 @@ footer {
 
 /*tab site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*tab site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*tab site ends!!!!!!!!!!!!!!!!!!!!!!*/
 /*tab site stARTS!!!!!!!!!!!!!!!!!!!!!!*/ /*tab site starts!!!!!!!!!!!!!!!!!!!!!!*/ /*tab site ends!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media (max-width: 450px) {
+  .wrap {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .stack-info-hold {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    border: 1px solid white;
+    border: none;
+  }
+}
 
 @media (max-width: 1030px) and (min-width: 651px) {
   html {
@@ -2162,7 +2150,7 @@ footer {
     border-radius: 3px;
     border: 1px solid #e83e8c;
     background-color: #121418;
-    color:#e83e8c;
+    color: #e83e8c;
     font-size: 20px;
     font-family: "Overpass", sans-serif;
     cursor: pointer;
@@ -2215,7 +2203,7 @@ footer {
     width: 1px;
     height: 150px;
     margin: auto;
-    background-color:#e83e8c;
+    background-color: #e83e8c;
   }
   .social-img {
     width: 30px;
@@ -2418,7 +2406,7 @@ footer {
   .horizon-line2 {
     width: 40%;
     height: 1px;
-    background-color:#e83e8c;
+    background-color: #e83e8c;
   }
   .heading3-mob {
     width: 100%;
@@ -2490,40 +2478,47 @@ footer {
     height: 20px;
     margin: 0 5px;
   }
+
   .box1 {
     background-color: #e83e8c;
-    background: url("./images/todo.jpg");
-    background-size: cover;
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736163337/arojo_qrtuz2.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: initial;
+    object-fit: contain;
   }
   .box2 {
-    background-color: #e83e8c;
-    background: url("./images/irokoevents.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736162350/krypto_wgi8yj.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: initial;
+    object-fit: contain;
   }
   .box3 {
-    background-color: #e83e8c;;
-    background: url("./images/Kryptofolio.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736159850/cinemax_synj3h.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
   .box4 {
-    background-color: #e83e8c;;
-    background: url("./images/lorenzofigma.png");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736168547/alabaS_kvi1to.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
+
   .box5 {
-    background-color: #e83e8c;;
-    background: url("./images/loopstudios.jpg");
-    background-size: cover;
+    background-color: rgba(251, 146, 60, 1);
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736169555/beachf_rbyg3p.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    object-fit: contain;
   }
   .box6 {
     background-color: #e83e8c;
@@ -2723,7 +2718,7 @@ footer {
     width: 1px;
     height: 20px;
     margin: auto;
-    background-color:#e83e8c;
+    background-color: #e83e8c;
   }
   .copyright {
     font-size: 16px;
