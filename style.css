@@ -773,6 +773,7 @@ h2 {
   background-position: initial;
   object-fit: contain;
 }
+
 .box3 {
   width: 100%;
   height: 45%;
@@ -821,6 +822,27 @@ h2 {
   height: 50%;
   background-color: rgba(251, 146, 60, 1);
   background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1753705141/Screenshot_482_cbwzpt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: initial;
+  object-fit: contain;
+}
+.box8 {
+  width: 100%;
+  height: 45%;
+  background-color: rgba(251, 146, 60, 1);
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1765719343/Screenshot_515_losnuf.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: initial;
+  object-fit: contain;
+}
+
+.box9 {
+  width: 100%;
+  height: 45%;
+  background-color: rgba(251, 146, 60, 1);
+  background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1765724725/Screenshot_516_fbybne.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: initial;
@@ -1759,14 +1781,7 @@ footer {
     margin: 0 5px;
   }
 
-  /* .box1 {
-    background-color: #e83e8c;
-    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1736163337/arojo_qrtuz2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: initial;
-    object-fit: contain;
-  } */
+ 
   .box1 {
     background-color: #e83e8c;
     background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1743170264/Screenshot_439_bcwtkx.png");
@@ -1849,18 +1864,40 @@ footer {
 
   .box8 {
     background-color: #e83e8c;
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1765719343/Screenshot_515_losnuf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: initial;
+    object-fit: contain;
+    border: none;
+    height: 50%;
+  }
+
+  .box9 {
+    background-color: #e83e8c;
+    background: url("https://res.cloudinary.com/drtzfu730/image/upload/v1765724725/Screenshot_516_fbybne.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: initial;
+    object-fit: contain;
+    border: none;
+    height: 50%;
+  }
+
+  /* .box8 {
+    background-color: #e83e8c;
     background: url("./images/tenzies.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .box9 {
+  } */
+  /* .box9 {
     background-color: #e83e8c;
     background: url("./images/ecommerce.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+  } */
   .box10 {
     background-color: #e83e8c;
     background: url("./images/Beach.png");
